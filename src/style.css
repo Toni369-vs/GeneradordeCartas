@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#container-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#card {
+  height: 350px;
+  width: 250px;
+  background-color: azure;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+#top {
+  font-size: 65px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+#center {
+  font-size: 90px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#botton {
+  font-size: 65px;
+  float: right;
+  position: relative;
+  top: 25px;
+  right: 10px;
+  transform: rotateX(180deg);
+}
+
+#btn {
+  width: 200px;
+  height: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-style: oblique;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
