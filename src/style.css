@@ -1,13 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: green;
+  background-image: url(./assets/img/tapete2.jpg);
+  background-size: cover;
 }
 
 #container-card {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 #card {
@@ -41,6 +42,21 @@ body {
   transform: rotateX(180deg);
 }
 
+.selectInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 25px;
+}
+
+#heightInput,
+#widthInput {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-style: oblique;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
 #btn {
   width: 200px;
   height: 60px;
@@ -49,7 +65,7 @@ body {
   font-style: oblique;
   position: absolute;
   left: 50%;
-  bottom: 20%;
+  bottom: 5%;
   transform: translate(-50%, -50%);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.7);
